@@ -2,6 +2,8 @@
 
 This repo is all about firebase service implementation in React, with Backendless Architecture.
 
+#### Getting Started 
+
 To run this repo, run this:
 
 ```bash
@@ -15,6 +17,8 @@ If it didn't work, try to remove the `firebase` library first, then run this:
 npm install firebase
 ```
 
+#### Environment Variable
+
 And also, this repo is using `.env` and these are what you should insert:
 
 ```
@@ -27,5 +31,13 @@ REACT_APP_FIREBASE_MESSENGER_SENDER_ID="Your Firebase Messenger Sender ID"
 REACT_APP_FIREBASE_APP_ID="Your Firebase APP ID"
 REACT_APP_FIREBASE_MEASUREMENT_ID="Your Firebase Measurement ID"
 ```
+
+#### Pages 
+
+- **/**             => Home Page
+- **/register**     => Register Page
+- **/login**        => Login Page
+- **/post**         => Last Post Page
+- **/post/create**  => Create Post Page
 
 Happy Hacking!

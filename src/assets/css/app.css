@@ -53,6 +53,24 @@
   }
 }
 
+.post {
+  text-align: justify;
+  font-size: 0.8em;
+  max-width: 75%;
+}
+
+.hero {
+  animation: ease-in-out 1s grow infinite alternate;
+}
+
+@keyframes grow {
+  from {
+    font-size: 1.2em;
+  }
+  to {
+    font-size: 1.5em;
+  }
+}
 
 @keyframes App-logo-spin {
   from {

@@ -1,6 +1,7 @@
 import * as firebase from 'firebase/app'
 import 'firebase/auth'
 import 'firebase/storage'
+import 'firebase/database'
 
 export default firebase.initializeApp({
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,

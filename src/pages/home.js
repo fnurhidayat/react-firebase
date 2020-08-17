@@ -3,9 +3,6 @@ import logo from '../assets/images/logo.svg';
 import firebase from '../services/firebase'
 import { AuthContext } from '../providers/auth'
 
-import '../assets/css/app.css';
-
-
 class Home extends Component {
   static contextType = AuthContext
 
