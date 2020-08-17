@@ -34,10 +34,12 @@ REACT_APP_FIREBASE_MEASUREMENT_ID="Your Firebase Measurement ID"
 
 #### Pages 
 
-- **/**             => Home Page
-- **/register**     => Register Page
-- **/login**        => Login Page
-- **/post**         => Last Post Page
-- **/post/create**  => Create Post Page
+| URL            | Description                                                          |
+|----------------|----------------------------------------------------------------------|
+| `/`            | Home Page, will show you the welcome message, and also logout button |
+| `/login`       | Login Page, login form for Firebase Authentication.                  |
+| `/register`    | Register Page, form to create new user in Firebase.                  |
+| `/post`        | Post Page, will show you the latest post created.                    |
+| `/post/create` | Create Post Page, will show you a form to create new post.           |
 
 Happy Hacking!
